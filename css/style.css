@@ -18,6 +18,9 @@ body {
   background-color: #ffffff; /* Fundo branco */
 }
 
+
+/* Trecho para estilizar a tela inicial*/
+
 section.home {
   display: flex; /* Flexbox para organizar itens de forma flexível */
   width: 100vw; /* Largura de 100% da tela */
@@ -62,6 +65,9 @@ section.home > .botao > a > img {
   margin: 0 auto; /* Centraliza a imagem */
   margin-top: 25px; /* Espaço acima da imagem */
 }
+
+
+/* Trecho para estilizar a seção de descrição*/
 
 section.desc {
   display: flex; /* Flexbox para organizar itens de forma flexível */
@@ -120,6 +126,9 @@ section.desc > .cta > a {
   padding-top: 27px; /* Distância entre o texto e o topo do botão */
   border-radius: 50px; /* Arredonda o botão */
 }
+
+
+/* Trecho para estilizar a seção de galeria de fotos*/
 
 section.galeria {
   display: flex; /* Flexbox para organizar itens de forma flexível */
@@ -208,27 +217,36 @@ section.galeria > .matriz > .baixo > .direita > .baixo {
   background-size: cover; /* Cobre todo o espaço */
 }
 
+
+/* Trecho para estilizar a seção de feedbacks*/
+
+section.feedbacks{
+  height: 700px;
+}
+
 .feedback-cards {
   display: flex; /* Flex container para organizar cartões */
   justify-content: center; /* Centraliza os cartões horizontalmente */
-  gap: 30px; /* Espaço de 30px entre os cartões */
+  gap: 70px; /* Espaço de 70px entre os cartões */
   flex-wrap: wrap; /* Quebra de linha quando necessário */
 }
 
 .card {
-  background-color: white; /* Fundo branco do cartão */
-  border-radius: 15px; /* Bordas arredondadas */
-  box-shadow: 0px 5px 15px rgba(0,0,0,0.1); /* Sombra suave */
-  width: 300px; /* Largura do cartão */
-  height: 400px; /* Altura do cartão */
-  padding: 20px; /* Espaço interno */
-  box-sizing: border-box; /* Inclui padding na largura total */
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2); /* mais escura */
+  width: 350px;
+  height: 550px;
+  padding: 20px;
+  box-sizing: border-box;
+  border: 1px grey;
 }
 
 .header {
   display: flex; /* Flex container para o cabeçalho */
   align-items: center; /* Alinha itens verticalmente ao centro */
   margin-bottom: 10px; /* Espaço abaixo do cabeçalho */
+  margin-top: 10px;
 }
 
 .foto {
@@ -250,10 +268,11 @@ section.galeria > .matriz > .baixo > .direita > .baixo {
   display: flex; /* Flex container */
   align-items: center; /* Alinha verticalmente */
   margin: 10px 0; /* Espaço acima e abaixo */
+  margin-top: 30px; /* Espaço acima */
 }
 
 .rating > img {
-  width: 100px; /* Largura da imagem de avaliação */
+  width: 150px; /* Largura da imagem de avaliação */
   margin-right: 8px; /* Espaço à direita */
 }
 
@@ -262,23 +281,33 @@ section.galeria > .matriz > .baixo > .direita > .baixo {
   font-size: 18px; /* Tamanho da fonte */
 }
 
-.contente strong {
+.content strong {
   display: block; /* Exibe como bloco */
   margin-bottom: 5px; /* Espaço abaixo */
   font-weight: bold; /* Texto em negrito */
 }
 
-.contente p {
+.content > .titulo {
+  margin-top: 50px; /* Espaço acima */
+  font-size: 18px;
+}
+
+.content > .comentario {
+  margin-top: 30px; /* Espaço acima */
+  line-height: 2.1; /* Espaçamento entre as linhas */
+  text-align: justify; /* Alinhar o texto */
+}
+
+.content p {
   font-size: 20px; /* Tamanho da fonte */
   color: #222; /* Cor do texto */
   margin: 0; /* Remove margens */
   font-family: dosis; /* Fonte personalizada */
 }
 
-.contente a {
+.content a {
   color: #000; /* Cor do link */
   font-weight: bold; /* Texto em negrito */
-  text-decoration: none; /* Remove sublinhado */
 }
 
 .feedbacks {
@@ -295,10 +324,13 @@ section.feed {
 
 section.feed > .titulo {
   display: flex; /* Flex container */
-  height: 80px; /* Altura definida */
-  width: 150px; /* Largura definida */
+  height: 115px; /* Altura definida */
+  width: 213px; /* Largura definida */
   margin: 0 auto; /* Centraliza horizontalmente */
 }
+
+
+/* Trecho para estilizar a seção de contato*/
 
 section.contato {
   height: 100vh; /* Altura de 100% da viewport */

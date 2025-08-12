@@ -9,401 +9,397 @@
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    font-family: dosis
-  }
-  
-  body {
-    background-color: #ffffff;
-  }
-  
-  section.home {
-    display: flex;/* Flexbox para organizar itens de forma flexível */
-    width: 100vw;/* Largura de 100% da tela */
-    height: 960px;/* Altura definida para 960px *//* Borda amarela ao redor */
-    flex-direction: column;/* Organiza os filhos de cima para baixo */
-  }
-  
-  section.home > .image {
-    display: flex;/* Flexbox para organizar itens de forma flexível */
-    width: 100vw;/* Largura de 100% da tela */
-    height: 720px;/* Altura definida para 720px */
-  }
-  
-  section.home > .botao {
-    display: flex;/* Flexbox para organizar itens de forma flexível */
-    width: 100vw;/* Largura de 100% da tela */
-    height: 240px;/* Altura definida para 240px */
-  }
-  
-  section.home > .image > img {
-    display: flex;/* Flexbox para organizar itens de forma flexível */
-    width: 800px;/* Largura da imagem */
-    height: 350px;/* Altura da imagem */
-    margin: 0 auto;/* Centraliza a imagem horizontalmente */
-    margin-top: 250px;/* Espaço acima da imagem */
-  }
-  
-  section.home > .botao > a {
-    display: flex;/* Flexbox para organizar itens de forma flexível */
-    width: 100px;/* Largura do botão */
-    height: 100px;/* Altura do botão */
-    background-color: #feab00;/* Cor de fundo do botão */
-    border-radius: 50%;/* Deixa o botão redondo */
-    margin: 0 auto;/* Centraliza o botão */
-    margin-top: 50px;/* Espaço acima do botão */
-  }
-  
-  section.home > .botao > a > img {
-    display: flex;/* Flexbox para organizar itens de forma flexível */
-    width: 50px;/* Largura da imagem dentro do botão */
-    height: 50px;/* Altura da imagem dentro do botão */
-    margin: 0 auto;/* Centraliza a imagem */
-    margin-top: 25px;/* Espaço acima da imagem */
-  }
-  
-  section.desc {
-    display: flex;/* Flexbox para organizar itens de forma flexível */
-    width: 100vw;/* Largura de 100% da tela */
-    height: 790px;/* Altura definida para 790px */
-    flex-direction: column;/* Organiza os filhos de cima para baixo */
-  }
-  
-  section.desc > .titulo {
-    display: flex;/* Flexbox para organizar itens de forma flexível */
-    width: 100vw;/* Largura de 100% da tela */
-    height: 263px;/* Altura definida para 263px */
-  }
-  
-  section.desc > .titulo > .logo {
-    display: flex;/* Flexbox para organizar itens de forma flexível */
-    width: 220px;/* Largura da tela */
-    height: 100px;/* Altura definida para 100px */
-    margin: 0 auto;/* Centraliza o logo */
-    margin-top: 50px;/* Espaço acima do logo */
-  }
-  
-  section.desc > .info {
-    display: flex;/* Flexbox para organizar itens de forma flexível */
-    width: 100vw;/* Largura de 100% da tela */
-    height: 263px;/* Altura definida para 263px */
-  }
+  margin: 0;
+  padding: 0;
+  font-family: dosis;
+}
 
-  section.desc > .info > p {
-    display: flex;/* Flexbox para organizar itens de forma flexível */
-    width: 65vw;/* Largura de 100% da tela */
-    margin: 0 auto;
-    text-align: center;/*Alinhar etxto no centro */
-    font-family: dosis;/*Fonte*/
-    font-size: 28px;/*Tamanho da fonte*/
-  }
-  
-  section.desc > .cta {
-    display: flex;/* Flexbox para organizar itens de forma flexível */
-    width: 100vw;/* Largura de 100% da tela */
-    height: 263px;/* Altura definida para 263px */
-  }
+body {
+  background-color: #ffffff; /* Fundo branco */
+}
 
-   section.desc > .cta > a{
-    display: flex;/* Flexbox para organizar itens de forma flexível */
-    width: 15vw;/* Largura da tela */
-    height: 70px;/* Altura definida para 70px */
-    background-color: #feab00;/*Cor de fundo do botão*/
-    color: #001ca4;/* Cor das letras do botão*/
-    text-decoration: none;/*Tirar traço do texto */
-    font-family: dosis;/* Fonte*/
-    margin: 0 auto;/*Espessura da margem */
-    font-size: 28px;/* Tamanho da fonte*/
-    justify-content: center;/*Centralizar o texto */
-    margin-top: 50px;/* Distancia do texto em relação a margem de cima*/
-    padding-top: 27px;/*Distancia entre o texto e o botão */
-    border-radius: 50px;/*Arredondar o botão */
-    margin-top: 80px;/* Distancia da margem de cima*/  
-  }
+section.home {
+  display: flex; /* Flexbox para organizar itens de forma flexível */
+  width: 100vw; /* Largura de 100% da tela */
+  height: 960px; /* Altura definida para 960px */
+  flex-direction: column; /* Organiza os filhos de cima para baixo */
+}
 
-  section.galeria {
-    display: flex;/* Flexbox para organizar itens de forma flexível */
-    width: 100vw;/*comprimento*/
-    height: 1300px;/*altura*/
-    background-color: #feab00;
-  }
+section.home > .image {
+  display: flex; /* Flexbox para organizar itens de forma flexível */
+  width: 100vw; /* Largura de 100% da tela */
+  height: 720px; /* Altura definida para 720px */
+}
 
-  section.galeria > .matriz {
-    display: flex;/* Flexbox para organizar itens de forma flexível */
-    width: 80vw;/*comprimento*/
-    height: 1240px;/*altura*/
-    margin: 0 auto;
-    flex-direction: column;
-  }
+section.home > .botao {
+  display: flex; /* Flexbox para organizar itens de forma flexível */
+  width: 100vw; /* Largura de 100% da tela */
+  height: 240px; /* Altura definida para 240px */
+}
 
-    section.galeria > .matriz > .cima {
-    display: flex;/* Flexbox para organizar itens de forma flexível */
-    width: 80vw;/*comprimento*/
-    height: 40%;/*altura*/
-    justify-content: space-between;
-  }
+section.home > .image > img {
+  display: flex; /* Flexbox para organizar itens de forma flexível */
+  width: 800px; /* Largura da imagem */
+  height: 350px; /* Altura da imagem */
+  margin: 0 auto; /* Centraliza a imagem horizontalmente */
+  margin-top: 250px; /* Espaço acima da imagem */
+}
 
-  section.galeria > .matriz > .cima > .esquerda {
-    display: flex;/* Flexbox para organizar itens de forma flexível */
-    width: 59%;/*comprimento*/
-    height: 100%;/*altura*/
-    margin-top: 30px;
-    background-image: url("../image/1.jpeg");/*transforma o fundo em uma imagem*/
-    background-position: center;/*alinha o fundo de imagem*/
-    background-size: cover;/*faz com que a imagem cubra todo o fundo*/
-  }
+section.home > .botao > a {
+  display: flex; /* Flexbox para organizar itens de forma flexível */
+  width: 100px; /* Largura do botão */
+  height: 100px; /* Altura do botão */
+  background-color: #feab00; /* Cor de fundo do botão */
+  border-radius: 50%; /* Deixa o botão redondo */
+  margin: 0 auto; /* Centraliza o botão */
+  margin-top: 50px; /* Espaço acima do botão */
+}
 
-  section.galeria > .matriz > .cima > .direita {
-    display: flex;/* Flexbox para organizar itens de forma flexível */
-    width: 39%;/*comprimento*/
-    height: 100%;/*altura*/
-    margin-top: 30px;
-    background-image: url("../image/4.jpeg");/*transforma o fundo em uma imagem*/
-    background-position: center;/*alinha o fundo de imagem*/
-    background-size: cover;/*faz com que a imagem cubra todo o fundo*/
-  }
+section.home > .botao > a > img {
+  display: flex; /* Flexbox para organizar itens de forma flexível */
+  width: 50px; /* Largura da imagem dentro do botão */
+  height: 50px; /* Altura da imagem dentro do botão */
+  margin: 0 auto; /* Centraliza a imagem */
+  margin-top: 25px; /* Espaço acima da imagem */
+}
 
-    section.galeria > .matriz > .baixo {
-    display: flex;/* Flexbox para organizar itens de forma flexível */
-    width: 80vw;/*comprimento*/
-    height: 60%;/*altura*/
-    justify-content: space-between;
-    margin-top: 30px;
-  }
+section.desc {
+  display: flex; /* Flexbox para organizar itens de forma flexível */
+  width: 100vw; /* Largura de 100% da tela */
+  height: 790px; /* Altura definida para 790px */
+  flex-direction: column; /* Organiza os filhos de cima para baixo */
+}
 
-  section.galeria > .matriz > .baixo > .esquerda {
-    display: flex;/* Flexbox para organizar itens de forma flexível */
-    width: 29%;/*comprimento*/
-    height: 100%;/*altura*/
-    margin-top: 30px;
-    background-image: url("../image/5.jpeg");/*transforma o fundo em uma imagem*/
-    background-position: center;/*alinha o fundo de imagem*/
-    background-size: cover;/*faz com que a imagem cubra todo o fundo*/
-  }
+section.desc > .titulo {
+  display: flex; /* Flexbox para organizar itens de forma flexível */
+  width: 100vw; /* Largura de 100% da tela */
+  height: 263px; /* Altura definida para 263px */
+}
 
-  section.galeria > .matriz > .baixo > .direita {
-    display: flex;/* Flexbox para organizar itens de forma flexível */
-    width: 69%;/*comprimento*/
-    height: 100%;/*altura*/
-    margin-top: 30px;
-    flex-direction: column;
-    justify-content: space-between;
-  }
+section.desc > .titulo > .logo {
+  display: flex; /* Flexbox para organizar itens de forma flexível */
+  width: 220px; /* Largura do logo */
+  height: 100px; /* Altura definida para 100px */
+  margin: 0 auto; /* Centraliza o logo */
+  margin-top: 50px; /* Espaço acima do logo */
+}
 
-  section.galeria > .matriz > .baixo > .direita > .cima {
-    display: flex;/* Flexbox para organizar itens de forma flexível */
-    width: 100%;/*comprimento*/
-    height: 48%;/*altura*/
-     background-image: url("../image/2.jpg");/*transforma o fundo em uma imagem*/
-    background-position: top;/*alinha o fundo de imagem*/
-    background-size: cover;/*faz com que a imagem cubra todo o fundo*/
-  }
+section.desc > .info {
+  display: flex; /* Flexbox para organizar itens de forma flexível */
+  width: 100vw; /* Largura de 100% da tela */
+  height: 263px; /* Altura definida para 263px */
+}
 
-  section.galeria > .matriz > .baixo > .direita > .baixo {
-    display: flex;/* Flexbox para organizar itens de forma flexível */
-    width: 100%;/*comprimento*/
-    height: 48%;/*altura*/
-    background-image: url("../image/3.jpeg");/*transforma o fundo em uma imagem*/
-    background-position: center;/*alinha o fundo de imagem*/
-    background-size: cover;/*faz com que a imagem cubra todo o fundo*/
-  }
+section.desc > .info > p {
+  display: flex; /* Flexbox para organizar itens de forma flexível */
+  width: 65vw; /* Largura de 65% da tela */
+  margin: 0 auto; /* Centraliza horizontalmente */
+  text-align: center; /* Alinha texto no centro */
+  font-family: dosis; /* Fonte */
+  font-size: 28px; /* Tamanho da fonte */
+}
 
+section.desc > .cta {
+  display: flex; /* Flexbox para organizar itens de forma flexível */
+  width: 100vw; /* Largura de 100% da tela */
+  height: 263px; /* Altura definida para 263px */
+}
+
+section.desc > .cta > a {
+  display: flex; /* Flexbox para organizar itens de forma flexível */
+  width: 15vw; /* Largura do botão */
+  height: 70px; /* Altura definida para 70px */
+  background-color: #feab00; /* Cor de fundo do botão */
+  color: #001ca4; /* Cor das letras do botão */
+  text-decoration: none; /* Remove sublinhado do texto */
+  font-family: dosis; /* Fonte */
+  margin: 0 auto; /* Centraliza horizontalmente */
+  font-size: 28px; /* Tamanho da fonte */
+  justify-content: center; /* Centraliza o texto */
+  margin-top: 80px; /* Distância da margem de cima */
+  padding-top: 27px; /* Distância entre o texto e o topo do botão */
+  border-radius: 50px; /* Arredonda o botão */
+}
+
+section.galeria {
+  display: flex; /* Flexbox para organizar itens de forma flexível */
+  width: 100vw; /* Largura de 100% da tela */
+  height: 1300px; /* Altura definida */
+  background-color: #feab00; /* Cor de fundo amarela */
+}
+
+section.galeria > .matriz {
+  display: flex; /* Flexbox para organizar itens de forma flexível */
+  width: 80vw; /* Largura de 80% da tela */
+  height: 1240px; /* Altura definida */
+  margin: 0 auto; /* Centraliza horizontalmente */
+  flex-direction: column; /* Organiza itens em coluna */
+}
+
+section.galeria > .matriz > .cima {
+  display: flex; /* Flexbox para organizar itens de forma flexível */
+  width: 80vw; /* Largura de 80% da tela */
+  height: 40%; /* Altura de 40% */
+  justify-content: space-between; /* Espaço entre elementos */
+}
+
+section.galeria > .matriz > .cima > .esquerda {
+  display: flex; /* Flexbox para organizar itens de forma flexível */
+  width: 59%; /* Largura de 59% */
+  height: 100%; /* Altura total */
+  margin-top: 30px; /* Espaço acima */
+  background-image: url("../image/1.jpeg"); /* Imagem de fundo */
+  background-position: center; /* Centraliza a imagem */
+  background-size: cover; /* Cobre todo o espaço */
+}
+
+section.galeria > .matriz > .cima > .direita {
+  display: flex; /* Flexbox para organizar itens de forma flexível */
+  width: 39%; /* Largura de 39% */
+  height: 100%; /* Altura total */
+  margin-top: 30px; /* Espaço acima */
+  background-image: url("../image/4.jpeg"); /* Imagem de fundo */
+  background-position: center; /* Centraliza a imagem */
+  background-size: cover; /* Cobre todo o espaço */
+}
+
+section.galeria > .matriz > .baixo {
+  display: flex; /* Flexbox para organizar itens de forma flexível */
+  width: 80vw; /* Largura de 80% da tela */
+  height: 60%; /* Altura de 60% */
+  justify-content: space-between; /* Espaço entre elementos */
+  margin-top: 30px; /* Espaço acima */
+}
+
+section.galeria > .matriz > .baixo > .esquerda {
+  display: flex; /* Flexbox para organizar itens de forma flexível */
+  width: 29%; /* Largura de 29% */
+  height: 100%; /* Altura total */
+  margin-top: 30px; /* Espaço acima */
+  background-image: url("../image/5.jpeg"); /* Imagem de fundo */
+  background-position: center; /* Centraliza a imagem */
+  background-size: cover; /* Cobre todo o espaço */
+}
+
+section.galeria > .matriz > .baixo > .direita {
+  display: flex; /* Flexbox para organizar itens de forma flexível */
+  width: 69%; /* Largura de 69% */
+  height: 100%; /* Altura total */
+  margin-top: 30px; /* Espaço acima */
+  flex-direction: column; /* Organiza itens em coluna */
+  justify-content: space-between; /* Espaço entre elementos */
+}
+
+section.galeria > .matriz > .baixo > .direita > .cima {
+  display: flex; /* Flexbox para organizar itens de forma flexível */
+  width: 100%; /* Largura total */
+  height: 48%; /* Altura de 48% */
+  background-image: url("../image/2.jpg"); /* Imagem de fundo */
+  background-position: top; /* Posiciona no topo */
+  background-size: cover; /* Cobre todo o espaço */
+}
+
+section.galeria > .matriz > .baixo > .direita > .baixo {
+  display: flex; /* Flexbox para organizar itens de forma flexível */
+  width: 100%; /* Largura total */
+  height: 48%; /* Altura de 48% */
+  background-image: url("../image/3.jpeg"); /* Imagem de fundo */
+  background-position: center; /* Centraliza a imagem */
+  background-size: cover; /* Cobre todo o espaço */
+}
 
 .feedback-cards {
-  display: flex;
-  justify-content: center;
-  gap: 30px;
-  flex-wrap: wrap;
+  display: flex; /* Flex container para organizar cartões */
+  justify-content: center; /* Centraliza os cartões horizontalmente */
+  gap: 30px; /* Espaço de 30px entre os cartões */
+  flex-wrap: wrap; /* Quebra de linha quando necessário */
 }
 
 .card {
-  background-color: white;
-  border-radius: 15px;
-  box-shadow: 0px 5px 15px rgba(0,0,0,0.1);
-  width: 300px;
-  height: 400px;
-  padding: 20px;
-  box-sizing: border-box;
+  background-color: white; /* Fundo branco do cartão */
+  border-radius: 15px; /* Bordas arredondadas */
+  box-shadow: 0px 5px 15px rgba(0,0,0,0.1); /* Sombra suave */
+  width: 300px; /* Largura do cartão */
+  height: 400px; /* Altura do cartão */
+  padding: 20px; /* Espaço interno */
+  box-sizing: border-box; /* Inclui padding na largura total */
 }
 
 .header {
-  display: flex;
-  align-items: center;
-  margin-bottom: 10px;
+  display: flex; /* Flex container para o cabeçalho */
+  align-items: center; /* Alinha itens verticalmente ao centro */
+  margin-bottom: 10px; /* Espaço abaixo do cabeçalho */
 }
 
 .foto {
-  width: 50px;
-  height: 50px;
-  background-color: black;
-  border-radius: 50%;
-  margin-right: 10px;
+  width: 50px; /* Largura da foto */
+  height: 50px; /* Altura da foto */
+  background-color: black; /* Fundo preto (placeholder) */
+  border-radius: 50%; /* Formato circular */
+  margin-right: 10px; /* Espaço à direita */
 }
 
 .info p {
-  margin: 0;
-  font-size: 15px;
-  font-family: dosis;
-  color: #555;
+  margin: 0; /* Remove margem padrão */
+  font-size: 15px; /* Tamanho da fonte */
+  font-family: dosis; /* Fonte personalizada */
+  color: #555; /* Cor cinza do texto */
 }
 
 .rating {
-  display: flex;
-  align-items: center;
-  margin: 10px 0;
+  display: flex; /* Flex container */
+  align-items: center; /* Alinha verticalmente */
+  margin: 10px 0; /* Espaço acima e abaixo */
 }
 
-
-.rating > img{
-  width: 100px;
-  margin-right: 8px;
+.rating > img {
+  width: 100px; /* Largura da imagem de avaliação */
+  margin-right: 8px; /* Espaço à direita */
 }
 
 .score {
-  font-weight: bold;
-  font-size: 18px;
+  font-weight: bold; /* Texto em negrito */
+  font-size: 18px; /* Tamanho da fonte */
 }
 
 .contente strong {
-  display: block;
-  margin-bottom: 5px;
-  font-weight: bold;
+  display: block; /* Exibe como bloco */
+  margin-bottom: 5px; /* Espaço abaixo */
+  font-weight: bold; /* Texto em negrito */
 }
 
 .contente p {
-  font-size: 20px;
-  color: #222;
-  margin: 0;
-  font-family: dosis;
+  font-size: 20px; /* Tamanho da fonte */
+  color: #222; /* Cor do texto */
+  margin: 0; /* Remove margens */
+  font-family: dosis; /* Fonte personalizada */
 }
 
 .contente a {
-  color: #000;
-  font-weight: bold;
-  text-decoration: none;
+  color: #000; /* Cor do link */
+  font-weight: bold; /* Texto em negrito */
+  text-decoration: none; /* Remove sublinhado */
 }
 
 .feedbacks {
-  height: 620px;
-  margin-top: 100px;
+  height: 620px; /* Altura definida */
+  margin-top: 100px; /* Espaço acima */
 }
 
 section.feed {
-  display: flex;
-  height: 80px;
-  width: 100vw;
-  margin-top: 100px;
+  display: flex; /* Flex container */
+  height: 80px; /* Altura definida */
+  width: 100vw; /* Largura de 100% da tela */
+  margin-top: 100px; /* Espaço acima */
 }
 
 section.feed > .titulo {
-  display: flex;
-  height: 80px;
-  width: 150px;
-  margin: 0 auto;
+  display: flex; /* Flex container */
+  height: 80px; /* Altura definida */
+  width: 150px; /* Largura definida */
+  margin: 0 auto; /* Centraliza horizontalmente */
 }
 
 section.contato {
-    height: 100vh; /* Altura de 100% da viewport */
-    width: 100vw; /* Largura de 100% da viewport */
-    background-color: #001ca3; /* Fundo azul escuro */
+  height: 100vh; /* Altura de 100% da viewport */
+  width: 100vw; /* Largura de 100% da viewport */
+  background-color: #001ca3; /* Fundo azul escuro */
 }
 
 section.contato > .imagem {
-    padding-top: 170px; /* Espaço interno no topo de 170px */
+  padding-top: 170px; /* Espaço interno no topo */
 }
 
 section.contato > .imagem > img {
-    display: flex; /* Flex (não afeta imagem isolada, mas não causa problema) */
-    height: 250px; /* Altura fixa de 250px */
-    margin: 0 auto; /* Centraliza a imagem horizontalmente */
+  display: flex; /* Flex container */
+  height: 250px; /* Altura fixa */
+  margin: 0 auto; /* Centraliza horizontalmente */
 }
 
 section.contato > .redes > img {
-    display: flex;
-    height: 150px;
-    margin: 0 auto; /* Centraliza horizontalmente */
-    margin-top: 70px; /* Distância de 70px do topo */
+  display: flex; /* Flex container */
+  height: 150px; /* Altura fixa */
+  margin: 0 auto; /* Centraliza horizontalmente */
+  margin-top: 70px; /* Espaço acima */
 }
 
 section.contato > .botao > a {
-    display: flex; /* Torna o link um flex container */
-    align-items: center; /* Centraliza o texto verticalmente */
-    justify-content: center; /* Centraliza o texto horizontalmente */
-    color: #001ca4; /* Cor do texto azul escuro */
-    text-align: center;
-    background-color: #feab00; /* Cor de fundo amarela */
-    margin: 0 auto; /* Centraliza horizontalmente */
-    margin-top: 50px; /* Distância de 50px do topo */
-    font-family: dosisBold; /* Fonte personalizada (seria necessário @font-face) */
-    font-size: 20px; /* Tamanho da fonte */
-    width: 600px; /* Largura do botão */
-    height: 60px; /* Altura do botão */
-    border-radius: 20px; /* Bordas arredondadas em 20px */
-    text-decoration: none; /* Remove o sublinhado do link */
+  display: flex; /* Flex container */
+  align-items: center; /* Centraliza verticalmente */
+  justify-content: center; /* Centraliza horizontalmente */
+  color: #001ca4; /* Cor do texto */
+  text-align: center; /* Alinha o texto no centro */
+  background-color: #feab00; /* Cor de fundo amarela */
+  margin: 0 auto; /* Centraliza horizontalmente */
+  margin-top: 50px; /* Espaço acima */
+  font-family: dosisBold; /* Fonte personalizada */
+  font-size: 20px; /* Tamanho da fonte */
+  width: 600px; /* Largura do botão */
+  height: 60px; /* Altura do botão */
+  border-radius: 20px; /* Bordas arredondadas */
+  text-decoration: none; /* Remove sublinhado */
 }
 
 .redes-sociais {
-    display: flex; /* Flex container */
-    justify-content: center; /* Centraliza os itens */
-    flex-wrap: wrap; /* Quebra de linha se necessário */
-    gap: 20px; /* Espaçamento de 20px entre os itens */
-    margin: 40px 0; /* Margem acima e abaixo de 40px */
+  display: flex; /* Flex container */
+  justify-content: center; /* Centraliza os itens */
+  flex-wrap: wrap; /* Permite quebra de linha */
+  gap: 20px; /* Espaçamento entre itens */
+  margin: 40px 0; /* Margem acima e abaixo */
 }
 
 .rede {
-    width: 120px; /* Largura fixa */
-    height: 120px; /* Altura fixa */
-    background-color: transparent; /* Fundo transparente */
-    border: 2px solid #ffffff; /* Borda branca */
-    border-radius: 15px; /* Bordas arredondadas */
-    display: flex; /* Flex container */
-    flex-direction: column; /* Direção em coluna */
-    justify-content: center; /* Centraliza verticalmente */
-    align-items: center; /* Centraliza horizontalmente */
-    color: white; /* Cor do texto branca */
-    font-family: 'Arial', sans-serif; /* Fonte Arial */
-    font-size: 16px; /* Tamanho da fonte */
-    transition: all 0.3s ease; /* Animação suave em 0.3s */
+  width: 120px; /* Largura fixa */
+  height: 120px; /* Altura fixa */
+  background-color: transparent; /* Fundo transparente */
+  border: 2px solid #ffffff; /* Borda branca */
+  border-radius: 15px; /* Bordas arredondadas */
+  display: flex; /* Flex container */
+  flex-direction: column; /* Organiza itens em coluna */
+  justify-content: center; /* Centraliza verticalmente */
+  align-items: center; /* Centraliza horizontalmente */
+  color: white; /* Cor do texto */
+  font-family: 'Arial', sans-serif; /* Fonte Arial */
+  font-size: 16px; /* Tamanho da fonte */
+  transition: all 0.3s ease; /* Animação suave */
 }
 
 .rede i {
-    font-size: 30px; /* Tamanho do ícone */
-    margin-bottom: 0px; /* Sem margem inferior */
-    position: relative; /* Posição relativa para ajustes */
-    top: -30px; /* Sobe 30px */
-    right: 40px; /* Move 40px para a esquerda */
+  font-size: 30px; /* Tamanho do ícone */
+  margin-bottom: 0px; /* Sem margem inferior */
+  position: relative; /* Posição relativa */
+  top: -30px; /* Sobe 30px */
+  right: 40px; /* Move 40px para a esquerda */
 }
 
 .rede span {
-    position: relative;
-    top: 30px; /* Move 30px para baixo */
-    font-family: 'dosis'; /* Fonte personalizada */
+  position: relative; /* Posição relativa */
+  top: 30px; /* Move 30px para baixo */
+  font-family: 'dosis'; /* Fonte personalizada */
 }
 
 .rede:hover {
-    background-color: rgba(255, 255, 255, 0.1); /* Fundo levemente branco */
-    cursor: pointer; /* Cursor vira "mãozinha" */
+  background-color: rgba(255, 255, 255, 0.1); /* Fundo levemente branco */
+  cursor: pointer; /* Cursor de mão */
 }
 
 .rodape {
-    background-color: white; /* Fundo branco */
-    color: #aaa; /* Texto cinza claro */
-    text-align: center; /* Texto centralizado */
-    padding: 20px 0; /* Espaço interno acima e abaixo de 20px */
-    font-family: 'dosis'; /* Fonte personalizada */
-    font-size: 18px; /* Tamanho do texto */
-    border-top: 1px solid #ccc; /* Borda superior cinza */
+  background-color: white; /* Fundo branco */
+  color: #aaa; /* Texto cinza claro */
+  text-align: center; /* Texto centralizado */
+  padding: 20px 0; /* Espaço interno vertical */
+  font-family: 'dosis'; /* Fonte personalizada */
+  font-size: 18px; /* Tamanho do texto */
+  border-top: 1px solid #ccc; /* Linha superior cinza */
 }
 
-
 .rodape .marca {
-    color: #000; /* Cor preta */
-    font-weight: bold; /* Texto em negrito */
-    letter-spacing: 2px; /* Espaço entre letras */
-    margin-left: 5px; /* Margem à esquerda */
+  color: #000; /* Cor preta */
+  font-weight: bold; /* Texto em negrito */
+  letter-spacing: 2px; /* Espaçamento entre letras */
+  margin-left: 5px; /* Espaço à esquerda */
 }
 
 .rodape .fa-globe {
-    margin-right: 5px; /* Espaço à direita */
+  margin-right: 5px; /* Espaço à direita */
 }
